@@ -7,22 +7,34 @@ using namespace std;
 
 int main()
 {
-    cout << "This is Leydi's attempt at running this code to solve for the value of x in this equation: ax+b=0\n";
-
+    cout << "This is Leydi's attempt at Lab 2 for running a code to solve for the value of x in an equation such as this:\n";
+    cout << "Ax+B=0\n";
+    
     float A;
     float B;
-    float X;
+    float x;
 
-    cout << "Please enter a value for A: ";
+    cout << "\nPlease enter a value for A: ";
     cin >> A;
 
     cout << "A=" << A << endl;
 
-    B = (A * 4) + 1;
+    cout << "\nNow enter a value for B: ";
+    cin >> B;
+
     cout << "And B=" << B << endl;
 
-    X = (B / A);
-    cout << "X=" << X << endl;
+    cout << "\nTherefore we are now solving for: ";
+    cout << A;
+    cout << "x + ";
+    cout << B;
+    cout << " = 0";
 
-    //ax+b
+    cout << "\nWhere the value of x will be: ";
+    x = (-B / A);
+
+    cout << "x=" << x << endl;
+
+    //This is Leydi Ricardez's solution for Lab 2, done on 8/31/22
+    //Running a code that is meant to solve for the linear equation of Ax+B=0
 }
